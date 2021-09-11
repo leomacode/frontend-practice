@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Red Hat Display';
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background: url("images/pattern-background-mobile.svg") center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .card {
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+}
+
+main .card img {
+  border-radius: 20px 20px 0 0;
+}
+
+main .card .text {
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 13px 35px -17px #000000;
+}
+
+main .card .text h3 {
+  color: #1f2f56;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+main .card .text p {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  color: #808080;
+}
+
+main .card .text .badge {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #f5f7ff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+main .card .text .badge img {
+  width: 50px;
+  height: 50px;
+}
+
+main .card .text .badge .tag {
+  padding: 0 20px;
+}
+
+main .card .text .badge .tag p {
+  padding: 0;
+}
+
+main .card .text .badge .tag .plan {
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+main .card .text .badge a {
+  font-size: 16px;
+  margin-left: 20px;
+  color: #3829e0;
+  font-weight: 700;
+}
+
+main .card .text button {
+  width: 100%;
+  border: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 5px 0;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+main .card .text .proceed {
+  background-color: #3829e0;
+  color: #fff;
+  box-shadow: 0px 13px 35px -17px #3829E0;
+}
+
+main .card .text .cancel {
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #808080;
+  cursor: pointer;
+}
+
+@media (min-width: 376px) {
+  main {
+    background: url("images/pattern-background-desktop.svg") center no-repeat;
+    background-size: cover;
+  }
+  main .card {
+    max-width: 374px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display';
+}
+
+
+
+
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background: url('images/pattern-background-mobile.svg') center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+    .card{
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            border-radius: 20px 20px 0 0;
+        }
+        
+       .text{
+           background-color: #fff;
+           border-radius: 0 0 20px 20px ;
+           padding:20px;
+           text-align: center;
+           -webkit-box-shadow: 0px 13px 35px -17px #000000; 
+           box-shadow: 0px 13px 35px -17px #000000;
+             
+        h3{
+           color:hsl(223, 47%, 23%);
+           font-size: 28px;
+           font-weight: 900;
+           margin-bottom: 10px;
+        
+           }
+ 
+        p{
+            font-size: 16px;
+            font-weight: 500;
+            padding: 10px 15px;
+            color:#808080;
+           }
+
+         .badge {
+             padding:20px;
+             margin: 20px 0;
+             background-color:hsl(225, 100%, 98%);
+             border-radius: 15px;
+             display: flex;
+             align-items: center;
+
+             img{
+                width: 50px;
+                height: 50px;
+             }
+
+             .tag  {
+                 padding: 0 20px;
+
+                p{
+                    padding:0;
+                }
+
+                .plan{
+                    font-weight: 900;
+                    color:hsl(223, 47%, 23%);
+                }
+             } 
+
+             a{
+                 font-size: 16px;
+                margin-left: 20px;
+                color:  hsl(245, 75%, 52%);
+                font-weight: 700;
+             }
+         }  
+
+         button {
+             width: 100%;
+             border: white;
+             border-radius: 15px;
+             padding: 20px;
+             margin: 5px 0;
+             font-weight: 700;
+             cursor: pointer;
+             font-size: 16px;
+         }
+  
+         .proceed{
+             background-color: hsl(245, 75%, 52%);
+             color: #fff;
+             -webkit-box-shadow: 0px 13px 35px -17px #3829E0; 
+             box-shadow: 0px 13px 35px -17px #3829E0;
+         }
+
+         .cancel {
+             background-color: #fff;
+             font-size: 16px;
+             font-weight: 700;
+             padding-top: 20px ;
+             padding-bottom: 10px;
+             color: #808080;
+             cursor: pointer;
+         }
+       }
+
+    
+
+}
+}
+
+
+@media (min-width:376px){
+main{
+    background: url('images/pattern-background-desktop.svg') center no-repeat;
+    background-size: cover;
+    .card{
+        max-width: 374px;
+    }
+}
+    
+
+
+}

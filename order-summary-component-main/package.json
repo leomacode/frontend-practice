@@ -1,0 +1,12 @@
+{
+  "name": "order-summary-component-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "css": "node-sass --include-path scss path/to/file.scss path/to/output.css",
+  "watch": "nodemon -e scss -x 'npm run css'",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
